@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="forum@localhost" uuid="aef209bd-6de9-4e1e-bde4-9b2d9ff2dfa4">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:forum</introspection-schemas>
+    </data-source>
+  </component>
+</project>
