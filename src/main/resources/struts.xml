@@ -18,7 +18,11 @@
 	<package name="Hello" namespace="/" extends="struts-default">
 
 		<action name="Hello_*" class="helloAction" method="{1}">
-			<result name="success">success.jsp</result>
+			<result name="success">/WEB-INF/jsp/success.jsp</result>
+		</action>
+
+		<action name="index" class="indexAction" method="index">
+			<result name="success">/WEB-INF/jsp/index.jsp</result>
 		</action>
 	</package>
 </struts>
